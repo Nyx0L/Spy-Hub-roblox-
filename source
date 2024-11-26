@@ -39,9 +39,9 @@ Tab:AddButton({
  
 local Tab = Window:MakeTab({ Name = "Blade Ball", Icon = "rbxassetid://4483345998", PremiumOnly = false }) local Section = Tab:AddSection({ Name = "Blade Ball" })
 Tab:AddButton({
-    Name = "XERA V3",
+    Name = "Frostware (BB)",
     Callback = function()
-            loadstring(game:HttpGet("https://raw.githubusercontent.com/luascriptsROBLOX/BladeBallXera/main/XeraUltron"))()
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/Fsploit/Frostware/refs/heads/main/F-R-O-S-T-W-A-R-E%20BY%20FSPLOIT-BLADE%20BALL.lua"))()
     end    
 })
  
