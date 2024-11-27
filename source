@@ -52,3 +52,17 @@ Tab:AddButton({
             loadstring(game:HttpGet('https://raw.githubusercontent.com/Roman34296589/SnapSanixHUB/refs/heads/main/SnapSanixHUB.lua'))()
     end    
 })
+
+local Tab = Window:MakeTab({ Name = "Hubs", Icon = "rbxassetid://4483345998", PremiumOnly = false }) local Section = Tab:AddSection({ Name = "Other Hubs" })
+Tab:AddButton({
+    Name = "Infinite Yield",
+    Callback = function()
+            loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+    end    
+})
+Tab:AddButton({
+    Name = "Dex Hub",
+    Callback = function()
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/Dexploits/DexHub/main/Dex%20Hub.lua"))()
+    end    
+})
