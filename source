@@ -63,6 +63,6 @@ Tab:AddButton({
 Tab:AddButton({
     Name = "Dex Hub",
     Callback = function()
-            loadstring(game:HttpGet("https://dexhub.xyz/loader.lua", true))()
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/Babyhamsta/RBLX_Scripts/main/Universal/BypassedDarkDexV3.lua", true))()
     end    
 })
