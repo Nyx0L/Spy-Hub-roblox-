@@ -2,6 +2,13 @@ local player = game.Players.LocalPlayer local OrionLib = loadstring(game:HttpGet
  
 local Window = OrionLib:MakeWindow({Name = "mr_dxly's hub", HidePremium = false, SaveConfig = true, ConfigFolder = "OrionTest"})
 local Tab = Window:MakeTab({ Name = "Main", Icon = "rbxassetid://4483345998", PremiumOnly = false }) local Section = Tab:AddSection({ Name = "Movement" })
+
+OrionLib:MakeNotification({
+	Name = "Discord",
+	Content = "Join the discord https://discord.gg/EvPHWvPCvj",
+	Image = "rbxassetid://4483345998",
+	Time = 5
+})
  
 Tab:AddSlider({
     Name = "Walk Speed",
