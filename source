@@ -72,3 +72,15 @@ Tab:AddButton({
             loadstring(game:HttpGet('https://raw.githubusercontent.com/svanta/MacronHub/refs/heads/main/MacronHub'))()
     end    
 })
+Tab:AddButton({
+    Name = "Script Hub V3",
+    Callback = function()
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/scripthubekitten/SCRIPTHUBV3/main/SCRIPTHUBV3", true))()
+    end    
+})
+Tab:AddButton({
+    Name = "Perfect Hub V1",
+    Callback = function()
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/theperfectexploiter2024/THE-PERFECT-HUB-v1/main/THE%20PERFECT%20HUB%20v1.txt"))()
+    end    
+})
