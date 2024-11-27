@@ -61,8 +61,14 @@ Tab:AddButton({
     end    
 })
 Tab:AddButton({
-    Name = "Dex Hub",
+    Name = "Dex Hub (not working)",
     Callback = function()
             loadstring(game:HttpGet("https://raw.githubusercontent.com/Babyhamsta/RBLX_Scripts/main/Universal/BypassedDarkDexV3.lua", true))()
+    end    
+})
+Tab:AddButton({
+    Name = "Macron Hub",
+    Callback = function()
+            loadstring(game:HttpGet('https://raw.githubusercontent.com/svanta/MacronHub/refs/heads/main/MacronHub'))()
     end    
 })
