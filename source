@@ -84,3 +84,9 @@ Tab:AddButton({
             loadstring(game:HttpGet("https://raw.githubusercontent.com/theperfectexploiter2024/THE-PERFECT-HUB-v1/main/THE%20PERFECT%20HUB%20v1.txt"))()
     end    
 })
+Tab:AddButton({
+    Name = "Rinns Hub",
+    Callback = function()
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/SkibidiCen/MainMenu/main/Code"))()
+    end    
+})
