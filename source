@@ -33,7 +33,7 @@ local Tab = Window:MakeTab({ Name = "Other", Icon = "rbxassetid://4483345998", P
 Tab:AddButton({
     Name = "Aimbot",
     Callback = function()
-            loadstring(game:HttpGet("https://raw.githubusercontent.com/Nyx0L/Spy-Aim/refs/heads/main/thing%20for%20GUI"))()
+            loadstring(game:HttpGet(('https://raw.githubusercontent.com/Nyx0L/Spy-Aim/refs/heads/main/thing%20for%20GUI')))()
     end    
 })
  
